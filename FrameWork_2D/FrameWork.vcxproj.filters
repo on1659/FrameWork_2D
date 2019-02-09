@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. main">
+      <UniqueIdentifier>{c82dadc9-56e0-4e8d-8279-61b5044a4acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Program">
+      <UniqueIdentifier>{516cf2f3-3373-4cf5-aab7-341c74f84a34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="02. Program\1. 객체">
+      <UniqueIdentifier>{c5bd808a-c9a7-4bf2-b7f6-24babb1818d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Program\1. 객체\Image">
+      <UniqueIdentifier>{dcfcb3f3-4e74-4e10-84ea-6ba165f024a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Program\1. 객체\Image\SpriteObject">
+      <UniqueIdentifier>{76815f3f-65fc-4294-85e8-79d353585efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Program\1. 객체\Image\GraphicObject">
+      <UniqueIdentifier>{693bca17-a746-4d10-8238-1a1a8454337a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Program\2. 라이브러리">
+      <UniqueIdentifier>{174599aa-6438-4f2e-8f20-d9542295884a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Program\2. 라이브러리\매니저">
+      <UniqueIdentifier>{95100741-496f-4bae-8b0e-09d9775c2f8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Program\2. 라이브러리\매니저\Render">
+      <UniqueIdentifier>{ff79b99d-f74c-4bf9-a16d-4445b346f943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Program\2. 라이브러리\매니저\Sound">
+      <UniqueIdentifier>{ce2b2603-8d65-407f-8d8e-6c6694598378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Program\2. 라이브러리\매니저\Timer">
+      <UniqueIdentifier>{bb9a49f1-1c12-4f0f-a7b2-eec62e94b899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Program\2. 라이브러리\매니저\GameState">
+      <UniqueIdentifier>{d8f4a3a0-ffdc-4032-bfc5-92d0d8ae9dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Program\2. 라이브러리\프레임워크">
+      <UniqueIdentifier>{aca0c43a-fa9e-4a4a-9748-23c639abe185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Program\3. Scene">
+      <UniqueIdentifier>{48cbeefd-6765-4bc5-a402-3a9872a3360c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Program\3. Scene\SceneState">
+      <UniqueIdentifier>{d7db57bb-6db4-47d3-98f5-79c2b7ea2d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Program\3. Scene\메뉴">
+      <UniqueIdentifier>{9b8c43d3-29da-492c-af41-866d4a53b700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Program\2. 라이브러리\매니저\InputManager">
+      <UniqueIdentifier>{b240c31a-9ea1-4392-bdee-70f7eec75c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="02. Program\3. Scene\로딩">
+      <UniqueIdentifier>{ed4d2d0a-3955-4223-bf8d-677d166b7ba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Program\1. 객체\TextBox">
+      <UniqueIdentifier>{5b13cde3-0560-40b8-898b-334e5378a1e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="기타">
+      <UniqueIdentifier>{2b85123e-f36f-4a35-985e-b77f1c2231a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Program\2. 라이브러리\Utill">
+      <UniqueIdentifier>{d8a96ef1-1bd8-4973-a49f-f55340123646}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>기타</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>기타</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>02. Program\2. 라이브러리\매니저\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>02. Program\2. 라이브러리\매니저\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTon.h">
+      <Filter>02. Program\2. 라이브러리</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFrameWork_2D.h">
+      <Filter>02. Program\2. 라이브러리\프레임워크</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager_2D.h">
+      <Filter>02. Program\2. 라이브러리\매니저\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState_2D.h">
+      <Filter>02. Program\2. 라이브러리\매니저\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteObject_2D.h">
+      <Filter>02. Program\1. 객체\Image\SpriteObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicObject_2D.h">
+      <Filter>02. Program\1. 객체\Image\GraphicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneLoading_2D.h">
+      <Filter>02. Program\3. Scene\로딩</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSelectMenu_2D.h">
+      <Filter>02. Program\3. Scene\메뉴</Filter>
+    </ClInclude>
+    <ClInclude Include="Lusian_Scrool.h">
+      <Filter>02. Program\2. 라이브러리</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>02. Program\2. 라이브러리\매니저\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EditBox.h">
+      <Filter>02. Program\1. 객체\TextBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_2D.h">
+      <Filter>02. Program\1. 객체</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw_2D.h">
+      <Filter>02. Program\2. 라이브러리\Utill</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFunction.h">
+      <Filter>02. Program\2. 라이브러리\Utill</Filter>
+    </ClInclude>
+    <ClInclude Include="Utill.h">
+      <Filter>02. Program\2. 라이브러리\Utill</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>00. main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Box2D.h">
+      <Filter>00. main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>기타</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>00. main</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>02. Program\2. 라이브러리\매니저\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>02. Program\2. 라이브러리\매니저\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFrameWork_2D.cpp">
+      <Filter>02. Program\2. 라이브러리\프레임워크</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager._2D.cpp">
+      <Filter>02. Program\2. 라이브러리\매니저\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteObject_2D.cpp">
+      <Filter>02. Program\1. 객체\Image\SpriteObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicObject_2D.cpp">
+      <Filter>02. Program\1. 객체\Image\GraphicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneLoading_2D.cpp">
+      <Filter>02. Program\3. Scene\로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSelectMenu_2D.cpp">
+      <Filter>02. Program\3. Scene\메뉴</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>02. Program\2. 라이브러리\매니저\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EditBox.cpp">
+      <Filter>02. Program\1. 객체\TextBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_2D.cpp">
+      <Filter>02. Program\1. 객체</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="FrameWork.ico">
+      <Filter>기타</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>기타</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FrameWork.rc">
+      <Filter>기타</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
